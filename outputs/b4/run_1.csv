@@ -1,0 +1,69 @@
+run,strategy,question_id,answer,correct,status,input_tokens,output_tokens,seconds,rounds,tool_calls
+1,S1,Q-01,"Ossford has the higher 2025 population density by 0.3 residents per square kilometre.
+
+ANSWER: Ossford | 0.3",False,answered,2174,34,1.7277756000403315,1,0
+1,S1,Q-02,ANSWER: Tarnvale | 0.29,False,answered,2180,12,1.1816968999919482,1,0
+1,S1,Q-03,ANSWER: Lindenmoor | 0.01,False,answered,2180,12,1.0944168999558315,1,0
+1,S1,Q-04,"Ashgrove: 8,837 ÷ 24 = 368.21 pupils per school  
+Millbrook: 5,562 ÷ 15 = 370.80 pupils per school  
+Difference: 370.80 − 368.21 = 2.59 pupils per school
+
+ANSWER: Millbrook | 2.59",True,answered,2175,73,1.661921799997799,1,0
+1,S1,Q-05,"ANSWER: Stonecairn | 21,707.94",False,answered,2176,16,1.1264654000406154,1,0
+1,S1,Q-06,ANSWER: yes | 14069,True,answered,2180,10,1.174185000010766,1,0
+1,S1,Q-07,ANSWER: Coldharbour | 25.03,False,answered,2184,13,1.1801286999834701,1,0
+1,S1,Q-08,ANSWER: Brightwater | 0.72,False,answered,2182,12,1.1121680000214837,1,0
+1,S1,Q-09,"Brightwater has the higher 2025 population density. Brightwater: 44,675 ÷ 921.4 = 48.48 residents/km²; Millbrook: 37,203 ÷ 758.6 = 49.05 residents/km². Difference: 0.57 residents/km².
+
+ANSWER: Millbrook | 0.57",True,answered,2174,77,1.391437300015241,1,0
+1,S1,Q-10,ANSWER: Stonecairn | 8,True,answered,2171,12,1.156044200004544,1,0
+1,S1,Q-11,ANSWER: Redfen | 78.25,False,answered,2189,12,1.2762641999870539,1,0
+1,S1,Q-12,ANSWER: Harrowfield | 251.04,False,answered,2177,13,1.2548891000333242,1,0
+1,S1,Q-13,ANSWER: Stonecairn | 3.54,False,answered,2185,14,1.3638322000042535,1,0
+1,S1,Q-14,ANSWER: Tarnvale | 0.03,False,answered,2180,12,1.06248790002428,1,0
+1,S1,Q-15,ANSWER: Kelmarsh | 14.10,False,answered,2175,13,1.0402355000260286,1,0
+1,S1,Q-16,ANSWER: yes | 23.9,True,answered,2174,11,1.018551999994088,1,0
+1,S1,Q-17,ANSWER: Harrowfield | 78.11,False,answered,2186,13,1.1788641000166535,1,0
+1,S1,Q-18,"ANSWER: yes | 40,011",False,answered,2197,11,1.1840199999860488,1,0
+1,S1,Q-19,ANSWER: Redfen | 0.0523,False,answered,2174,13,1.1464161000330932,1,0
+1,S1,Q-20,"ANSWER: Harrowfield | 41,562.16",False,answered,2187,15,1.248480300011579,1,0
+1,S2,Q-01,ANSWER: ossbridge | 4.6,True,answered,10950,497,8.707105199981015,1,0
+1,S2,Q-02,ANSWER: harrowfield | 1.69,True,answered,10980,583,8.464764999982435,1,0
+1,S2,Q-03,ANSWER: lindenmoor | 5.3,True,answered,10980,873,11.959010499995202,1,0
+1,S2,Q-04,ANSWER: millbrook | 2.6,True,answered,10955,424,8.559477299975697,1,0
+1,S2,Q-05,ANSWER: coldharbour | 14217.0,False,answered,10960,653,9.628864799975418,1,0
+1,S2,Q-06,ANSWER: yes | 14069.0,True,answered,10980,406,7.144108800042886,1,0
+1,S2,Q-07,ANSWER: coldharbour | 18.49,True,answered,11000,838,10.06241160002537,1,0
+1,S2,Q-08,ANSWER: brightwater | 72.46,True,answered,10990,902,10.94763489998877,1,0
+1,S2,Q-09,ANSWER: millbrook | 0.6,True,answered,10950,639,9.029314899991732,1,0
+1,S2,Q-10,ANSWER: stonecairn | 8.0,True,answered,10935,225,5.906778600008693,1,0
+1,S2,Q-11,ANSWER: redfen | 56.1,True,answered,11025,561,8.62533379998058,1,0
+1,S2,Q-12,ANSWER: tarnvale | 64.4,True,answered,10965,719,9.990206599992234,1,0
+1,S2,Q-13,ANSWER: coldharbour | 4.16,True,answered,11005,868,10.472155299969018,1,0
+1,S2,Q-14,ANSWER: ashgrove | 4.8,True,answered,10980,878,10.366185799997766,1,0
+1,S2,Q-15,ANSWER: redfen | 17.7,False,answered,10955,385,8.404505499987863,1,0
+1,S2,Q-16,ANSWER: yes | 23.9,True,answered,10950,454,7.6670454000122845,1,0
+1,S2,Q-17,ANSWER: harrowfield | 891.0,False,answered,11010,1155,12.899930000014137,1,0
+1,S2,Q-18,ANSWER: yes | 40015.0,False,answered,11065,600,9.549084099999163,1,0
+1,S2,Q-19,ANSWER: lindenmoor | 0.035,True,answered,10950,573,9.17011939996155,1,0
+1,S2,Q-20,ANSWER: ashgrove | 3000.0,False,answered,11015,808,10.605528000043705,1,0
+1,S3,Q-01,ANSWER: Ossbridge | 4.6,True,answered,2350,204,5.164,4,7
+1,S3,Q-02,ANSWER: Harrowfield | 1.7,True,answered,1607,156,4.452,3,5
+1,S3,Q-03,ANSWER: Lindenmoor | 5.3,True,answered,1623,163,4.293,3,5
+1,S3,Q-04,ANSWER: Millbrook | 2.6,True,answered,1557,134,4.15,3,5
+1,S3,Q-05,ANSWER: Coldharbour | 14235.3,True,answered,1607,163,4.607,3,5
+1,S3,Q-06,ANSWER: yes | 14069,True,answered,1495,117,4.211,3,4
+1,S3,Q-07,ANSWER: Coldharbour | 18.5,True,answered,2398,217,5.981,4,7
+1,S3,Q-08,ANSWER: Brightwater | 72456.2,False,answered,1799,195,4.224,3,7
+1,S3,Q-09,ANSWER: Millbrook | 0.6,True,answered,1571,144,3.81,3,5
+1,S3,Q-10,ANSWER: Stonecairn | 8.0,True,answered,1368,96,3.728,3,3
+1,S3,Q-11,ANSWER: Redfen | 53.5,False,answered,1768,171,4.251,3,7
+1,S3,Q-12,ANSWER: Tarnvale | 64.4,True,answered,1609,160,4.123,3,5
+1,S3,Q-13,ANSWER: Coldharbour | 4.2,False,answered,1892,254,4.651,3,9
+1,S3,Q-14,ANSWER: Ashgrove | 4.9,True,answered,1620,161,4.672,3,5
+1,S3,Q-15,ANSWER: Redfen | 17.6,True,answered,1557,134,4.467,3,5
+1,S3,Q-16,ANSWER: yes | 23.9,True,answered,1489,126,4.465,3,4
+1,S3,Q-17,ANSWER: Harrowfield | 884457.2,False,answered,1837,213,4.744,3,7
+1,S3,Q-18,ANSWER: yes | 40013.4,True,answered,1463,102,3.899,3,3
+1,S3,Q-19,ANSWER: Lindenmoor | 0.0,False,answered,2339,206,5.224,4,7
+1,S3,Q-20,ANSWER: Ashgrove | 2993.3,True,answered,2780,283,6.075,4,10

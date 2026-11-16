@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: lindenmoor | 5.3",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "1. Convert Lindenmoor’s water use: 2,151,400 cubic metres = 2,151,400,000 litres.\n2. Lindenmoor daily per-resident use: 2,151,400,000 ÷ 29,051 ÷ 365 = 202.87 litres.\n3. Convert Kelmarsh’s water use: 1,739 megalitres = 1,739,000,000 litres.\n4. Kelmarsh daily per-resident use: 1,739,000,000 ÷ 24,117 ÷ 365 = 197.56 litres.\n5. Difference: 202.87 − 197.56 = 5.31 litres per resident per day.\n\nANSWER: Lindenmoor | 5.31",
+      "input_tokens": 2196,
+      "output_tokens": 164,
+      "seconds": 2.135807799990289,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Step 1: Convert water use to litres.\n\n- Lindenmoor: 2,151,400 cubic metres × 1,000 = 2,151,400,000 litres\n- Kelmarsh: 1,739 megalitres × 1,000,000 = 1,739,000,000 litres\n\nStep 2: Calculate litres per resident per day using 365 days.\n\n- Lindenmoor: 2,151,400,000 ÷ 29,051 ÷ 365 ≈ 202.84 litres\n- Kelmarsh: 1,739,000,000 ÷ 24,117 ÷ 365 ≈ 197.54 litres\n\nStep 3: Find the difference.\n\n202.84 − 197.54 = 5.30 litres per resident per day\n\nLindenmoor's households used more water.\n\nANSWER: Lindenmoor | 5.30",
+      "input_tokens": 2196,
+      "output_tokens": 193,
+      "seconds": 3.0877790999948047,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Convert Lindenmoor’s water use: 2,151,400 cubic metres = 2,151,400,000 litres.\n2. Lindenmoor per resident per day: 2,151,400,000 ÷ 29,051 ÷ 365 = 202.91 litres.\n3. Kelmarsh’s water use: 1,739 megalitres = 1,739,000,000 litres.\n4. Kelmarsh per resident per day: 1,739,000,000 ÷ 24,117 ÷ 365 = 197.61 litres.\n5. Difference: 202.91 − 197.61 = 5.30 litres per resident per day.\n\nANSWER: Lindenmoor | 5.30",
+      "input_tokens": 2196,
+      "output_tokens": 161,
+      "seconds": 2.2860818000044674,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Use 2025 population and household water use.\n2. Convert Lindenmoor’s water use: 2,151,400 cubic metres = 2,151,400,000 litres.\n3. Lindenmoor daily per-resident use: 2,151,400,000 ÷ 29,051 ÷ 365 ≈ 202.84 litres.\n4. Kelmarsh’s water use: 1,739 megalitres = 1,739,000,000 litres.\n5. Kelmarsh daily per-resident use: 1,739,000,000 ÷ 24,117 ÷ 365 ≈ 197.58 litres.\n6. Difference: 202.84 − 197.58 = 5.26 litres per resident per day.\n\nANSWER: Lindenmoor | 5.26",
+      "input_tokens": 2196,
+      "output_tokens": 177,
+      "seconds": 2.1788959999685176,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Use 2025 population and household water use.\n2. Convert Lindenmoor’s water use: 2,151,400 cubic metres = 2,151,400,000 litres.\n3. Lindenmoor daily per-resident use: 2,151,400,000 ÷ 29,051 ÷ 365 ≈ 202.86 litres.\n4. Convert Kelmarsh’s water use: 1,739 megalitres = 1,739,000,000 litres.\n5. Kelmarsh daily per-resident use: 1,739,000,000 ÷ 24,117 ÷ 365 ≈ 197.60 litres.\n6. Difference: 202.86 − 197.60 = 5.26 litres per resident per day.\n\nANSWER: Lindenmoor | 5.26",
+      "input_tokens": 2196,
+      "output_tokens": 178,
+      "seconds": 2.2693989000399597,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "lindenmoor",
+      5.3
+    ],
+    [
+      "lindenmoor",
+      5.3
+    ],
+    [
+      "lindenmoor",
+      5.3
+    ],
+    [
+      "lindenmoor",
+      5.3
+    ],
+    [
+      "lindenmoor",
+      5.3
+    ]
+  ],
+  "input_tokens": 10980,
+  "output_tokens": 873,
+  "seconds": 11.959010499995202
+}

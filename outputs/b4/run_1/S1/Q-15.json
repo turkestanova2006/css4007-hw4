@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Kelmarsh | 14.10",
+  "input_tokens": 2175,
+  "output_tokens": 13,
+  "seconds": 1.0402355000260286,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

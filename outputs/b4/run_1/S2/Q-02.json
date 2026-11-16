@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: harrowfield | 1.69",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "1. Tarnvale population growth:\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n= 6.21\\%\n\\]\n\n2. Harrowfield population growth:\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n= 7.90\\%\n\\]\n\n3. Difference:\n\\[\n7.90-6.21=1.69\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 119,
+      "seconds": 1.6735399999888614,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Tarnvale population growth:  \n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=6.21\\%\n\\]\n\n2. Harrowfield population growth:  \n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=7.90\\%\n\\]\n\n3. Difference:  \n\\[\n7.90-6.21=1.69\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 120,
+      "seconds": 1.7669026000075974,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale growth: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield growth: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.90\\%\\).\n\nDifference: \\(7.90 - 6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 100,
+      "seconds": 1.6671036000479944,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Tarnvale population growth:  \n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n= 6.21\\%\n\\]\n\n2. Harrowfield population growth:  \n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n= 7.90\\%\n\\]\n\n3. Difference:  \n\\[\n7.90-6.21=1.69\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 122,
+      "seconds": 1.73976909997873,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Tarnvale population growth:  \n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n= 6.21\\%\n\\]\n\n2. Harrowfield population growth:  \n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n= 7.90\\%\n\\]\n\n3. Difference:  \n\\[\n7.90-6.21=1.69\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 122,
+      "seconds": 1.6171554999891669,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ]
+  ],
+  "input_tokens": 10980,
+  "output_tokens": 583,
+  "seconds": 8.464764999982435
+}

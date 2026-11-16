@@ -1,0 +1,200 @@
+{
+  "question_id": "Q-17",
+  "question": "At the 2025 household water tariff, which district's households paid more for water per resident in 2025, Harrowfield or Ossbridge, and by how many tenge per resident?",
+  "answer": "ANSWER: Harrowfield | 884457.2",
+  "status": "answered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"water_tariff_2025\"}",
+      "result": {
+        "value": 142.35,
+        "unit": "tenge/m3",
+        "source": "NR-15"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"water_2025\"}",
+      "result": {
+        "value": 7146.0,
+        "unit": "megalitres",
+        "source": "NR-07"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 90212.0,
+        "unit": "residents",
+        "source": "NR-07"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ossbridge\", \"field\": \"water_tariff_2025\"}",
+      "result": {
+        "value": 142.35,
+        "unit": "tenge/m3",
+        "source": "NR-15"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ossbridge\", \"field\": \"water_2025\"}",
+      "result": {
+        "value": 3862.0,
+        "unit": "megalitres",
+        "source": "NR-01"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ossbridge\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 52904.0,
+        "unit": "residents",
+        "source": "NR-01"
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\":\"(7146*1000000/90212*142.35)-(3862*1000000/52904*142.35)\"}",
+      "result": {
+        "result": 884457.1621968765
+      }
+    }
+  ],
+  "input_tokens": 1837,
+  "output_tokens": 213,
+  "rounds": 3,
+  "seconds": 4.744,
+  "tool_call_count": 7,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "At the 2025 household water tariff, which district's households paid more for water per resident in 2025, Harrowfield or Ossbridge, and by how many tenge per resident?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_xnxZTxupQTGYQ6Yn2mvLRtt8",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"water_tariff_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_21aTdVHiHy9dwElOAVypqzkf",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"water_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_g7vL1RTA0o2ADgdbIYf7sVn5",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_AM16oapkeb9vc9qav2w3Bu5u",
+          "function": {
+            "arguments": "{\"district\": \"Ossbridge\", \"field\": \"water_tariff_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_pLbrhkwHBP4ap80wuyzAcmaT",
+          "function": {
+            "arguments": "{\"district\": \"Ossbridge\", \"field\": \"water_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_mnQZUgkDkOGdSeLPAzau2nVJ",
+          "function": {
+            "arguments": "{\"district\": \"Ossbridge\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_xnxZTxupQTGYQ6Yn2mvLRtt8",
+      "content": "{\"value\": 142.35, \"unit\": \"tenge/m3\", \"source\": \"NR-15\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_21aTdVHiHy9dwElOAVypqzkf",
+      "content": "{\"value\": 7146.0, \"unit\": \"megalitres\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_g7vL1RTA0o2ADgdbIYf7sVn5",
+      "content": "{\"value\": 90212.0, \"unit\": \"residents\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AM16oapkeb9vc9qav2w3Bu5u",
+      "content": "{\"value\": 142.35, \"unit\": \"tenge/m3\", \"source\": \"NR-15\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_pLbrhkwHBP4ap80wuyzAcmaT",
+      "content": "{\"value\": 3862.0, \"unit\": \"megalitres\", \"source\": \"NR-01\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mnQZUgkDkOGdSeLPAzau2nVJ",
+      "content": "{\"value\": 52904.0, \"unit\": \"residents\", \"source\": \"NR-01\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_2Bj5107Ynoz3ub1T9fxIGGRM",
+          "function": {
+            "arguments": "{\"expression\":\"(7146*1000000/90212*142.35)-(3862*1000000/52904*142.35)\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_2Bj5107Ynoz3ub1T9fxIGGRM",
+      "content": "{\"result\": 884457.1621968765}"
+    },
+    {
+      "content": "ANSWER: Harrowfield | 884457.2",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3"
+}

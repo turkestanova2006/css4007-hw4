@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: lindenmoor | 0.035",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Lindenmoor paved road density: 402.3 ÷ 1,015.7 = 0.396 km/km².\n\nRedfen paved road density: 244.6 ÷ 677.1 = 0.361 km/km².\n\nDifference: 0.396 − 0.361 = 0.035 km/km².\n\nLindenmoor has the denser paved road network by 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 106,
+      "seconds": 2.00094060000265,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Use 2025 figures and the corrected area where applicable.\n2. Lindenmoor: \\(402.3 \\div 1,015.7 = 0.3961\\) km/km².\n3. Redfen: \\(244.6 \\div 677.1 = 0.3613\\) km/km².\n4. Difference: \\(0.3961 - 0.3613 = 0.0348\\) km/km².\n5. Lindenmoor therefore has the denser paved road network.\n\nANSWER: Lindenmoor | 0.0348",
+      "input_tokens": 2190,
+      "output_tokens": 123,
+      "seconds": 1.9134073000168428,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Lindenmoor: \\(402.3 \\div 1,015.7 \\approx 0.3960\\) km/km².\n\nRedfen: \\(244.6 \\div 677.1 \\approx 0.3613\\) km/km².\n\nDifference: \\(0.3960 - 0.3613 = 0.0347\\) km/km², which rounds to 0.035 km/km².\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 103,
+      "seconds": 1.724667300004512,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Step 1: Use the corrected/current 2025 figures.\n\n- Lindenmoor: 402.3 km of paved roads ÷ 1,015.7 km² = 0.3960 km/km²\n- Redfen: 244.6 km of paved roads ÷ 677.1 km² = 0.3613 km/km²\n\nStep 2: Compare the densities.\n\n0.3960 − 0.3613 = 0.0347 km/km²\n\nLindenmoor has the denser paved road network by 0.0347 km per square kilometre.\n\nANSWER: Lindenmoor | 0.0347",
+      "input_tokens": 2190,
+      "output_tokens": 138,
+      "seconds": 1.9770698000211269,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Lindenmoor paved-road density:\n402.3 ÷ 1,015.7 = 0.396 km/km²\n\nRedfen paved-road density:\n244.6 ÷ 677.1 = 0.361 km/km²\n\nDifference:\n0.396 − 0.361 = 0.035 km/km²\n\nLindenmoor has the denser paved road network by 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 103,
+      "seconds": 1.552493900002446,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ]
+  ],
+  "input_tokens": 10950,
+  "output_tokens": 573,
+  "seconds": 9.17011939996155
+}

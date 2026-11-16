@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Coldharbour | 12.65",
+  "input_tokens": 2184,
+  "output_tokens": 13,
+  "seconds": 1.1141491999733262,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

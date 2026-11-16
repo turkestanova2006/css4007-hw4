@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Lindenmoor | 0.01",
+  "input_tokens": 2180,
+  "output_tokens": 12,
+  "seconds": 1.0944168999558315,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

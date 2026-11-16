@@ -1,0 +1,202 @@
+{
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "answer": "ANSWER: Lindenmoor | 5.3",
+  "status": "answered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"water_2025\"}",
+      "result": {
+        "value": 2151.4,
+        "unit": "megalitres",
+        "source": "NR-08"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 29051.0,
+        "unit": "residents",
+        "source": "NR-08"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"water_2025\"}",
+      "result": {
+        "value": 1739.0,
+        "unit": "megalitres",
+        "source": "NR-04"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 24117.0,
+        "unit": "residents",
+        "source": "NR-04"
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"2151.4*1000000/(29051*365)\"}",
+      "result": {
+        "result": 202.89306995774555
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"1739.0*1000000/(24117*365)\"}",
+      "result": {
+        "result": 197.55291129260834
+      }
+    },
+    {
+      "round": 3,
+      "name": "calculate",
+      "arguments": "{\"expression\":\"202.89306995774555-197.55291129260834\"}",
+      "result": {
+        "result": 5.34015866513721
+      }
+    }
+  ],
+  "input_tokens": 2420,
+  "output_tokens": 220,
+  "rounds": 4,
+  "seconds": 6.056,
+  "tool_call_count": 7,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_zFsWNbpxpnzVYuhpFV42QZQt",
+          "function": {
+            "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"water_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_jk323YfvNV2ajv1QpvYseOuO",
+          "function": {
+            "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_7uD3VbWDzHYLNwcyN3afcmNM",
+          "function": {
+            "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"water_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_OANK641iUeomy5twyHYhrKog",
+          "function": {
+            "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_zFsWNbpxpnzVYuhpFV42QZQt",
+      "content": "{\"value\": 2151.4, \"unit\": \"megalitres\", \"source\": \"NR-08\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jk323YfvNV2ajv1QpvYseOuO",
+      "content": "{\"value\": 29051.0, \"unit\": \"residents\", \"source\": \"NR-08\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7uD3VbWDzHYLNwcyN3afcmNM",
+      "content": "{\"value\": 1739.0, \"unit\": \"megalitres\", \"source\": \"NR-04\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_OANK641iUeomy5twyHYhrKog",
+      "content": "{\"value\": 24117.0, \"unit\": \"residents\", \"source\": \"NR-04\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_BKvmE9kuCVMhWEVkOg2LA42a",
+          "function": {
+            "arguments": "{\"expression\": \"2151.4*1000000/(29051*365)\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_9TjxnIzkod7mEh1rlC10qSeg",
+          "function": {
+            "arguments": "{\"expression\": \"1739.0*1000000/(24117*365)\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_BKvmE9kuCVMhWEVkOg2LA42a",
+      "content": "{\"result\": 202.89306995774555}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9TjxnIzkod7mEh1rlC10qSeg",
+      "content": "{\"result\": 197.55291129260834}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_kbOsSRMjbeehiAXkQigBrL72",
+          "function": {
+            "arguments": "{\"expression\":\"202.89306995774555-197.55291129260834\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_kbOsSRMjbeehiAXkQigBrL72",
+      "content": "{\"result\": 5.34015866513721}"
+    },
+    {
+      "content": "ANSWER: Lindenmoor | 5.3",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3"
+}

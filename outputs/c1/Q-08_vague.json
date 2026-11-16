@@ -1,0 +1,130 @@
+{
+  "question_id": "Q-08",
+  "question": "At the 2025 household water tariff, whose households paid more for water in 2025, Brightwater's or Millbrook's, and by how many million tenge?",
+  "answer": "UNANSWERED",
+  "status": "unanswered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Brightwater\", \"field\": \"2025 household water tariff and households or household water consumption/payment data\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water tariff and households or household water consumption/payment data"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Millbrook\", \"field\": \"2025 household water tariff and households or household water consumption/payment data\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water tariff and households or household water consumption/payment data"
+      }
+    },
+    {
+      "round": 2,
+      "name": "lookup",
+      "arguments": "{\"district\":\"Brightwater\",\"field\":\"2025 household water tariff\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water tariff"
+      }
+    },
+    {
+      "round": 3,
+      "name": "lookup",
+      "arguments": "{\"district\":\"Millbrook\",\"field\":\"2025 household water tariff\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water tariff"
+      }
+    }
+  ],
+  "input_tokens": 1641,
+  "output_tokens": 135,
+  "rounds": 4,
+  "seconds": 6.008,
+  "tool_call_count": 4,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "At the 2025 household water tariff, whose households paid more for water in 2025, Brightwater's or Millbrook's, and by how many million tenge?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_FJMmM4UOBzGf8OvMFqr3pdy3",
+          "function": {
+            "arguments": "{\"district\": \"Brightwater\", \"field\": \"2025 household water tariff and households or household water consumption/payment data\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_9qm2b99hbfGw6VRS34R9rJXr",
+          "function": {
+            "arguments": "{\"district\": \"Millbrook\", \"field\": \"2025 household water tariff and households or household water consumption/payment data\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_FJMmM4UOBzGf8OvMFqr3pdy3",
+      "content": "{\"error\": \"Unknown field: 2025 household water tariff and households or household water consumption/payment data\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_9qm2b99hbfGw6VRS34R9rJXr",
+      "content": "{\"error\": \"Unknown field: 2025 household water tariff and households or household water consumption/payment data\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_lhRzr0YNIeCj8QHz2ugDic5D",
+          "function": {
+            "arguments": "{\"district\":\"Brightwater\",\"field\":\"2025 household water tariff\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lhRzr0YNIeCj8QHz2ugDic5D",
+      "content": "{\"error\": \"Unknown field: 2025 household water tariff\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_v6QHk9fjfhlaR0CCPJq6oA0v",
+          "function": {
+            "arguments": "{\"district\":\"Millbrook\",\"field\":\"2025 household water tariff\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_v6QHk9fjfhlaR0CCPJq6oA0v",
+      "content": "{\"error\": \"Unknown field: 2025 household water tariff\"}"
+    },
+    {
+      "content": "UNANSWERED",
+      "role": "assistant",
+      "annotations": []
+    }
+  ]
+}

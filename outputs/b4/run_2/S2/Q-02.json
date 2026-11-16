@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: harrowfield | 1.69",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Tarnvale growth:\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=\\frac{4,174}{67,214}\\times100\n\\approx 6.21\\%\n\\]\n\nHarrowfield growth:\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=\\frac{6,603}{83,609}\\times100\n\\approx 7.90\\%\n\\]\n\nDifference:\n\\[\n7.90-6.21=1.69\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 142,
+      "seconds": 1.961171299975831,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale growth: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield growth: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.90\\%\\).\n\nDifference: \\(7.90 - 6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 100,
+      "seconds": 1.412533299997449,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale growth: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield growth: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.90\\%\\).\n\nDifference: \\(7.90 - 6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 100,
+      "seconds": 1.4623427000478841,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale growth: \\((71,388 - 67,214) / 67,214 \\times 100 = 6.21\\%\\).\n\nHarrowfield growth: \\((90,212 - 83,609) / 83,609 \\times 100 = 7.90\\%\\).\n\nDifference: \\(7.90 - 6.21 = 1.69\\) percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 100,
+      "seconds": 1.807331099989824,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Step 1: Calculate Tarnvale’s percentage growth:\n\n\\[\n\\frac{71,388-67,214}{67,214}\\times100\n=\\frac{4,174}{67,214}\\times100\n\\approx 6.21\\%\n\\]\n\nStep 2: Calculate Harrowfield’s percentage growth:\n\n\\[\n\\frac{90,212-83,609}{83,609}\\times100\n=\\frac{6,603}{83,609}\\times100\n\\approx 7.90\\%\n\\]\n\nStep 3: Compare the growth rates:\n\n\\[\n7.90\\%-6.21\\%=1.69\\text{ percentage points}\n\\]\n\nHarrowfield grew faster by 1.69 percentage points.\n\nANSWER: Harrowfield | 1.69",
+      "input_tokens": 2196,
+      "output_tokens": 169,
+      "seconds": 2.1576601999695413,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ],
+    [
+      "harrowfield",
+      1.69
+    ]
+  ],
+  "input_tokens": 10980,
+  "output_tokens": 611,
+  "seconds": 8.801422199991066
+}

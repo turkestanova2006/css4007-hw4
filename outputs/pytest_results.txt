@@ -1,0 +1,26 @@
+[1m============================= test session starts =============================[0m
+platform win32 -- Python 3.12.4, pytest-9.2.0, pluggy-1.7.0 -- C:\Anaconda\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Туркестанова Аида\css4007-hw4\css4007-hw4
+plugins: anyio-4.16.0, langsmith-0.14.17
+[1mcollecting ... [0mcollected 17 items
+
+test_lookup.py::test_population [32mPASSED[0m[32m                                   [  5%][0m
+test_lookup.py::test_correction [32mPASSED[0m[32m                                   [ 11%][0m
+test_lookup.py::test_similar_names [32mPASSED[0m[32m                                [ 17%][0m
+test_lookup.py::test_misspelled_name [32mPASSED[0m[32m                              [ 23%][0m
+test_lookup.py::test_archived_profile [32mPASSED[0m[32m                             [ 29%][0m
+test_lookup.py::test_water_conversion [32mPASSED[0m[32m                             [ 35%][0m
+test_lookup.py::test_unknown_field [32mPASSED[0m[32m                                [ 41%][0m
+test_calculate.py::test_multiplication [32mPASSED[0m[32m                            [ 47%][0m
+test_calculate.py::test_division [32mPASSED[0m[32m                                  [ 52%][0m
+test_calculate.py::test_addition [32mPASSED[0m[32m                                  [ 58%][0m
+test_calculate.py::test_subtraction [32mPASSED[0m[32m                               [ 64%][0m
+test_calculate.py::test_zero_division [32mPASSED[0m[32m                             [ 70%][0m
+test_calculate.py::test_dangerous_import [32mPASSED[0m[32m                          [ 76%][0m
+test_calculate.py::test_dangerous_attribute [32mPASSED[0m[32m                       [ 82%][0m
+test_calculate.py::test_large_exponent [32mPASSED[0m[32m                            [ 88%][0m
+test_calculate.py::test_empty_expression [32mPASSED[0m[32m                          [ 94%][0m
+test_calculate.py::test_large_number [32mPASSED[0m[32m                              [100%][0m
+
+[32m============================= [32m[1m17 passed[0m[32m in 0.04s[0m[32m ==============================[0m

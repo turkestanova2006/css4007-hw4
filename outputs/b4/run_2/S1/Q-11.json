@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Millbrook | 50.67",
+  "input_tokens": 2189,
+  "output_tokens": 12,
+  "seconds": 1.1920944000012241,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: yes | 14069",
+  "input_tokens": 2180,
+  "output_tokens": 10,
+  "seconds": 1.174185000010766,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

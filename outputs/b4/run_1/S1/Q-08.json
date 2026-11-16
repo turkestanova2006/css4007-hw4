@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Brightwater | 0.72",
+  "input_tokens": 2182,
+  "output_tokens": 12,
+  "seconds": 1.1121680000214837,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

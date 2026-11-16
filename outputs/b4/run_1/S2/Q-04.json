@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: millbrook | 2.6",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Ashgrove pupils per school: 8,837 ÷ 24 = 368.2083.\n\nMillbrook pupils per school: 5,562 ÷ 15 = 370.8.\n\nMillbrook has more pupils per school. Difference: 370.8 − 368.2083 = 2.5917, which rounds to 2.6 pupils per school.\n\nANSWER: Millbrook | 2.6",
+      "input_tokens": 2191,
+      "output_tokens": 92,
+      "seconds": 1.8389936000457965,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Ashgrove pupils per school: 8,837 ÷ 24 = 368.2083.\n\nMillbrook pupils per school: 5,562 ÷ 15 = 370.8.\n\nDifference: 370.8 − 368.2083 = 2.5917, which rounds to 2.6 pupils per school.\n\nANSWER: Millbrook | 2.6",
+      "input_tokens": 2191,
+      "output_tokens": 84,
+      "seconds": 1.8396751999971457,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Ashgrove pupils per school: 8,837 ÷ 24 = 368.2083.\n\nMillbrook pupils per school: 5,562 ÷ 15 = 370.8.\n\nDifference: 370.8 − 368.2083 = 2.5917, which rounds to 2.6 pupils per school.\n\nANSWER: Millbrook | 2.6",
+      "input_tokens": 2191,
+      "output_tokens": 84,
+      "seconds": 1.3140383000136353,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Ashgrove: 8,837 ÷ 24 = 368.208 pupils per school.\n\nMillbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n\nDifference: 370.8 − 368.208 = 2.592, which rounds to 2.6 pupils per school.\n\nANSWER: Millbrook | 2.6",
+      "input_tokens": 2191,
+      "output_tokens": 81,
+      "seconds": 1.648700200021267,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Ashgrove: 8,837 pupils ÷ 24 schools = 368.21 pupils per school.\n\nMillbrook: 5,562 pupils ÷ 15 schools = 370.80 pupils per school.\n\nMillbrook has more pupils per school by 370.80 − 368.21 = 2.59 pupils per school.\n\nANSWER: Millbrook | 2.59",
+      "input_tokens": 2191,
+      "output_tokens": 83,
+      "seconds": 1.9178002999979071,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "millbrook",
+      2.6
+    ],
+    [
+      "millbrook",
+      2.6
+    ],
+    [
+      "millbrook",
+      2.6
+    ],
+    [
+      "millbrook",
+      2.6
+    ],
+    [
+      "millbrook",
+      2.59
+    ]
+  ],
+  "input_tokens": 10955,
+  "output_tokens": 424,
+  "seconds": 8.559477299975697
+}

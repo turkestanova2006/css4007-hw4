@@ -139,11 +139,18 @@
 
 ### Final questions
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. The model has only requested a tool call. Python has not executed it yet. My loop checks the arguments, runs the tool and returns the result.
+
+2. Arguments arrive as a JSON string from the model. I use json.loads() to convert them into a dictionary. Without validation, the function can receive incorrect inputs.
+
+3. My two serialized tool definitions used approximately 200 tokens, measured with tiktoken and o200k_base. The API may count some internal formatting differently.
+
+4. S2 used an average of 219600 input and 13124.5 output tokens per run. S1 used 43600 input and 353.5 output tokens. S2 used about 5.3 times as many total tokens because it generated five answers. The exact dollar cost depends on the verified model tariff.
+
+5. Q-01 required the most rounds in my S3 logs: 4. I inspected the saved log to understand which lookups, calculations or retries caused the extra rounds.
+
+6. With 100000 documents, I would use a database or search index instead of scanning all text. I would keep source IDs and apply corrections before returning data.
+
+7. My calculator uses ast instead of eval or exec. It allows only arithmetic operations and rejects dangerous Python expressions. However, the model can still give incorrect numbers or units.
+
+8. Tools helped with numerical questions that required several facts and calculations. S3 achieved 77.5% average accuracy, while S1 achieved 22.5%. Tools did not fully prevent unit errors, as shown by Q-08.

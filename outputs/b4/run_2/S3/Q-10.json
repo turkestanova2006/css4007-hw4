@@ -1,0 +1,108 @@
+{
+  "question_id": "Q-10",
+  "question": "Which district is older, Stonecairn or Coldharbour, and how many years older is it than the other?",
+  "answer": "ANSWER: Stonecairn | 8.0",
+  "status": "answered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Stonecairn\", \"field\": \"founded_year\"}",
+      "result": {
+        "value": 1837.0,
+        "unit": "year",
+        "source": "NR-06"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Coldharbour\", \"field\": \"founded_year\"}",
+      "result": {
+        "value": 1845.0,
+        "unit": "year",
+        "source": "NR-12"
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\":\"1845-1837\"}",
+      "result": {
+        "result": 8
+      }
+    }
+  ],
+  "input_tokens": 1368,
+  "output_tokens": 96,
+  "rounds": 3,
+  "seconds": 3.422,
+  "tool_call_count": 3,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "Which district is older, Stonecairn or Coldharbour, and how many years older is it than the other?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_VN14DEKi1TeaBHxqozTewbux",
+          "function": {
+            "arguments": "{\"district\": \"Stonecairn\", \"field\": \"founded_year\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_g5QnXXYLT3qcDVabbg4Re77M",
+          "function": {
+            "arguments": "{\"district\": \"Coldharbour\", \"field\": \"founded_year\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_VN14DEKi1TeaBHxqozTewbux",
+      "content": "{\"value\": 1837.0, \"unit\": \"year\", \"source\": \"NR-06\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_g5QnXXYLT3qcDVabbg4Re77M",
+      "content": "{\"value\": 1845.0, \"unit\": \"year\", \"source\": \"NR-12\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_7urySUT9IVRZqEdIY10PTCOC",
+          "function": {
+            "arguments": "{\"expression\":\"1845-1837\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_7urySUT9IVRZqEdIY10PTCOC",
+      "content": "{\"result\": 8}"
+    },
+    {
+      "content": "ANSWER: Stonecairn | 8.0",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3"
+}

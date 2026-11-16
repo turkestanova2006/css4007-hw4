@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: ashgrove | 4.8",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "1. Use 2025 household water use and 2025 census population.\n\n2. Convert megalitres to litres:\n   - Tarnvale: 5,207 ML = 5,207,000,000 litres\n   - Ashgrove: 4,390 ML = 4,390,000,000 litres\n\n3. Calculate litres per resident per day over 365 days:\n   - Tarnvale: 5,207,000,000 ÷ 71,388 ÷ 365 = 199.77 litres\n   - Ashgrove: 4,390,000,000 ÷ 58,760 ÷ 365 = 204.62 litres\n\n4. Difference:\n   204.62 − 199.77 = 4.85 litres per resident per day\n\nAshgrove used more water.\n\nANSWER: Ashgrove | 4.85",
+      "input_tokens": 2196,
+      "output_tokens": 188,
+      "seconds": 2.1379486999940127,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Convert household water use to litres:\n   - Tarnvale: 5,207 megalitres = 5,207,000,000 litres\n   - Ashgrove: 4,390 megalitres = 4,390,000,000 litres\n\n2. Calculate litres per resident per day using 365 days:\n   - Tarnvale: 5,207,000,000 ÷ 71,388 ÷ 365 = 199.82 litres\n   - Ashgrove: 4,390,000,000 ÷ 58,760 ÷ 365 = 204.60 litres\n\n3. Difference:\n   - 204.60 − 199.82 = 4.78 litres per resident per day\n\nAshgrove used more water.\n\nANSWER: Ashgrove | 4.78",
+      "input_tokens": 2196,
+      "output_tokens": 178,
+      "seconds": 2.2401981000439264,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale: \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres.\n\n\\[\n\\frac{5{,}207{,}000{,}000}{71{,}388 \\times 365}\n=199.77\\text{ litres per resident per day}\n\\]\n\nAshgrove: \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres.\n\n\\[\n\\frac{4{,}390{,}000{,}000}{58{,}760 \\times 365}\n=204.65\\text{ litres per resident per day}\n\\]\n\nDifference:\n\n\\[\n204.65-199.77=4.88\n\\]\n\nAshgrove households used more water by 4.88 litres per resident per day.\n\nANSWER: Ashgrove | 4.88",
+      "input_tokens": 2196,
+      "output_tokens": 209,
+      "seconds": 2.1957911999779753,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale: \\(5{,}207\\) megalitres \\(= 5{,}207{,}000{,}000\\) litres.\n\n\\[\n\\frac{5{,}207{,}000{,}000}{71{,}388 \\times 365}\n=199.75\\text{ litres per resident per day}\n\\]\n\nAshgrove: \\(4{,}390\\) megalitres \\(= 4{,}390{,}000{,}000\\) litres.\n\n\\[\n\\frac{4{,}390{,}000{,}000}{58{,}760 \\times 365}\n=204.63\\text{ litres per resident per day}\n\\]\n\nDifference:\n\n\\[\n204.63-199.75=4.88\n\\]\n\nAshgrove households used more water by 4.88 litres per resident per day.\n\nANSWER: Ashgrove | 4.88",
+      "input_tokens": 2196,
+      "output_tokens": 209,
+      "seconds": 2.1340051000006497,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Tarnvale: 5,207 megalitres ÷ 71,388 residents = 72.94 litres per resident per day.\n\nAshgrove: 4,390 megalitres ÷ 58,760 residents = 67.14 litres per resident per day.\n\nDifference: 72.94 − 67.14 = 5.80 litres per resident per day.\n\nANSWER: Tarnvale | 5.80",
+      "input_tokens": 2196,
+      "output_tokens": 94,
+      "seconds": 1.6579666000325233,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "ashgrove",
+      4.8
+    ],
+    [
+      "ashgrove",
+      4.8
+    ],
+    [
+      "ashgrove",
+      4.9
+    ],
+    [
+      "ashgrove",
+      4.9
+    ],
+    [
+      "tarnvale",
+      5.8
+    ]
+  ],
+  "input_tokens": 10980,
+  "output_tokens": 878,
+  "seconds": 10.366185799997766
+}

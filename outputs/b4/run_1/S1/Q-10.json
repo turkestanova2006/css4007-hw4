@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Stonecairn | 8",
+  "input_tokens": 2171,
+  "output_tokens": 12,
+  "seconds": 1.156044200004544,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

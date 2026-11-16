@@ -1,0 +1,269 @@
+{
+  "question_id": "Q-11",
+  "question": "Of Redfen, Ashgrove and Millbrook, which district has the fewest pupils per school in 2025/26, and how many pupils per school separate the highest of the three from the lowest?",
+  "answer": "ANSWER: Redfen | 56.1",
+  "status": "answered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Redfen\", \"field\": \"pupils\"}",
+      "result": {
+        "value": 3147.0,
+        "unit": "pupils",
+        "source": "NR-09"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Redfen\", \"field\": \"schools\"}",
+      "result": {
+        "value": 10.0,
+        "unit": "schools",
+        "source": "NR-09"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"pupils\"}",
+      "result": {
+        "value": 8837.0,
+        "unit": "pupils",
+        "source": "NR-10"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"schools\"}",
+      "result": {
+        "value": 24.0,
+        "unit": "schools",
+        "source": "NR-10"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Millbrook\", \"field\": \"pupils\"}",
+      "result": {
+        "value": 5562.0,
+        "unit": "pupils",
+        "source": "NR-11"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Millbrook\", \"field\": \"schools\"}",
+      "result": {
+        "value": 15.0,
+        "unit": "schools",
+        "source": "NR-11"
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"3147/10\"}",
+      "result": {
+        "result": 314.7
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"8837/24\"}",
+      "result": {
+        "result": 368.2083333333333
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"5562/15\"}",
+      "result": {
+        "result": 370.8
+      }
+    },
+    {
+      "round": 3,
+      "name": "calculate",
+      "arguments": "{\"expression\":\"370.8-314.7\"}",
+      "result": {
+        "result": 56.10000000000002
+      }
+    }
+  ],
+  "input_tokens": 2655,
+  "output_tokens": 236,
+  "rounds": 4,
+  "seconds": 5.506,
+  "tool_call_count": 10,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "Of Redfen, Ashgrove and Millbrook, which district has the fewest pupils per school in 2025/26, and how many pupils per school separate the highest of the three from the lowest?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_5ox8PvF71EJoEf4idjkvRGkn",
+          "function": {
+            "arguments": "{\"district\": \"Redfen\", \"field\": \"pupils\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_efecy4pwZwYwtMbdwjzRExYg",
+          "function": {
+            "arguments": "{\"district\": \"Redfen\", \"field\": \"schools\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_bILNPaMjafWeGMa5cklFVH3H",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"pupils\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_WBEIBoxIW3psbEENv4LThXTX",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"schools\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_L37255SaXsgCFChpBtgTEA3M",
+          "function": {
+            "arguments": "{\"district\": \"Millbrook\", \"field\": \"pupils\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_MKhCBzkyntayeu8pVEXgkPmz",
+          "function": {
+            "arguments": "{\"district\": \"Millbrook\", \"field\": \"schools\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_5ox8PvF71EJoEf4idjkvRGkn",
+      "content": "{\"value\": 3147.0, \"unit\": \"pupils\", \"source\": \"NR-09\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_efecy4pwZwYwtMbdwjzRExYg",
+      "content": "{\"value\": 10.0, \"unit\": \"schools\", \"source\": \"NR-09\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_bILNPaMjafWeGMa5cklFVH3H",
+      "content": "{\"value\": 8837.0, \"unit\": \"pupils\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_WBEIBoxIW3psbEENv4LThXTX",
+      "content": "{\"value\": 24.0, \"unit\": \"schools\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_L37255SaXsgCFChpBtgTEA3M",
+      "content": "{\"value\": 5562.0, \"unit\": \"pupils\", \"source\": \"NR-11\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_MKhCBzkyntayeu8pVEXgkPmz",
+      "content": "{\"value\": 15.0, \"unit\": \"schools\", \"source\": \"NR-11\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_mXEftZ4OjHyEc3lTBd7rmvpp",
+          "function": {
+            "arguments": "{\"expression\": \"3147/10\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_hVtsZN6WBo2aCKUGUN9Rjsbu",
+          "function": {
+            "arguments": "{\"expression\": \"8837/24\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_AwArUUibVoB1MNZnddmtE14F",
+          "function": {
+            "arguments": "{\"expression\": \"5562/15\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_mXEftZ4OjHyEc3lTBd7rmvpp",
+      "content": "{\"result\": 314.7}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hVtsZN6WBo2aCKUGUN9Rjsbu",
+      "content": "{\"result\": 368.2083333333333}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_AwArUUibVoB1MNZnddmtE14F",
+      "content": "{\"result\": 370.8}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_lpt6T5WqADntmlxWKgpQ0P1M",
+          "function": {
+            "arguments": "{\"expression\":\"370.8-314.7\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_lpt6T5WqADntmlxWKgpQ0P1M",
+      "content": "{\"result\": 56.10000000000002}"
+    },
+    {
+      "content": "ANSWER: Redfen | 56.1",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3"
+}

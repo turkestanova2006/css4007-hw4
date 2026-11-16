@@ -1,0 +1,269 @@
+{
+  "question_id": "Q-20",
+  "question": "Of Ossbridge, Ashgrove and Harrowfield, which district had the largest 2025 budget per resident, and by how many tenge per resident did it exceed the lowest of the three?",
+  "answer": "ANSWER: Ashgrove | 2993.3",
+  "status": "answered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ossbridge\", \"field\": \"budget_2025\"}",
+      "result": {
+        "value": 9284.5,
+        "unit": "million tenge",
+        "source": "NR-01"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ossbridge\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 52904.0,
+        "unit": "residents",
+        "source": "NR-01"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"budget_2025\"}",
+      "result": {
+        "value": 10488.1,
+        "unit": "million tenge",
+        "source": "NR-10"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Ashgrove\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 58760.0,
+        "unit": "residents",
+        "source": "NR-10"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"budget_2025\"}",
+      "result": {
+        "value": 16021.7,
+        "unit": "million tenge",
+        "source": "NR-07"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Harrowfield\", \"field\": \"population_2025\"}",
+      "result": {
+        "value": 90212.0,
+        "unit": "residents",
+        "source": "NR-07"
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"9284.5*1000000/52904\"}",
+      "result": {
+        "result": 175497.12687131407
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"10488.1*1000000/58760\"}",
+      "result": {
+        "result": 178490.46970728386
+      }
+    },
+    {
+      "round": 2,
+      "name": "calculate",
+      "arguments": "{\"expression\": \"16021.7*1000000/90212\"}",
+      "result": {
+        "result": 177600.54094798918
+      }
+    },
+    {
+      "round": 3,
+      "name": "calculate",
+      "arguments": "{\"expression\":\"178490.46970728386-175497.12687131407\"}",
+      "result": {
+        "result": 2993.3428359697864
+      }
+    }
+  ],
+  "input_tokens": 2780,
+  "output_tokens": 283,
+  "rounds": 4,
+  "seconds": 6.075,
+  "tool_call_count": 10,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "Of Ossbridge, Ashgrove and Harrowfield, which district had the largest 2025 budget per resident, and by how many tenge per resident did it exceed the lowest of the three?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_ensdxMaGHwnW5b7ysWPZK3Km",
+          "function": {
+            "arguments": "{\"district\": \"Ossbridge\", \"field\": \"budget_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_hW1klQnUaHRvBfxK14LIDzsl",
+          "function": {
+            "arguments": "{\"district\": \"Ossbridge\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_oezteDgwRG8J1hMD6WiIvMBb",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"budget_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_gzEW98MiugqowJqLWUaDoFSA",
+          "function": {
+            "arguments": "{\"district\": \"Ashgrove\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_EVg94XYP6pVP8CGYFkP98Gox",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"budget_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_J0UGoQoltioWwk8xMyKdMYZx",
+          "function": {
+            "arguments": "{\"district\": \"Harrowfield\", \"field\": \"population_2025\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ensdxMaGHwnW5b7ysWPZK3Km",
+      "content": "{\"value\": 9284.5, \"unit\": \"million tenge\", \"source\": \"NR-01\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_hW1klQnUaHRvBfxK14LIDzsl",
+      "content": "{\"value\": 52904.0, \"unit\": \"residents\", \"source\": \"NR-01\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_oezteDgwRG8J1hMD6WiIvMBb",
+      "content": "{\"value\": 10488.1, \"unit\": \"million tenge\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gzEW98MiugqowJqLWUaDoFSA",
+      "content": "{\"value\": 58760.0, \"unit\": \"residents\", \"source\": \"NR-10\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_EVg94XYP6pVP8CGYFkP98Gox",
+      "content": "{\"value\": 16021.7, \"unit\": \"million tenge\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_J0UGoQoltioWwk8xMyKdMYZx",
+      "content": "{\"value\": 90212.0, \"unit\": \"residents\", \"source\": \"NR-07\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_gxv7wx546mNAcLKAtriTPf28",
+          "function": {
+            "arguments": "{\"expression\": \"9284.5*1000000/52904\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_oT7PB3V1Dme6HX9J5TKK7s7s",
+          "function": {
+            "arguments": "{\"expression\": \"10488.1*1000000/58760\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_HKvwmHrsUoEsvr0Xp89Ax0Nu",
+          "function": {
+            "arguments": "{\"expression\": \"16021.7*1000000/90212\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_gxv7wx546mNAcLKAtriTPf28",
+      "content": "{\"result\": 175497.12687131407}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_oT7PB3V1Dme6HX9J5TKK7s7s",
+      "content": "{\"result\": 178490.46970728386}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_HKvwmHrsUoEsvr0Xp89Ax0Nu",
+      "content": "{\"result\": 177600.54094798918}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_ogJKIYSE63S6EPpBzjEoQCP8",
+          "function": {
+            "arguments": "{\"expression\":\"178490.46970728386-175497.12687131407\"}",
+            "name": "calculate"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ogJKIYSE63S6EPpBzjEoQCP8",
+      "content": "{\"result\": 2993.3428359697864}"
+    },
+    {
+      "content": "ANSWER: Ashgrove | 2993.3",
+      "role": "assistant",
+      "annotations": []
+    }
+  ],
+  "strategy": "S3"
+}

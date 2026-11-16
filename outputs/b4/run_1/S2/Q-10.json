@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: stonecairn | 8.0",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "input_tokens": 2187,
+      "output_tokens": 45,
+      "seconds": 1.3423244999721646,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "input_tokens": 2187,
+      "output_tokens": 45,
+      "seconds": 1.2803190000122413,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "input_tokens": 2187,
+      "output_tokens": 45,
+      "seconds": 1.0593467999715358,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "input_tokens": 2187,
+      "output_tokens": 45,
+      "seconds": 1.0987167000421323,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn was founded in 1837, while Coldharbour was founded in 1845.\n\n1845 − 1837 = 8 years.\n\nANSWER: Stonecairn | 8",
+      "input_tokens": 2187,
+      "output_tokens": 45,
+      "seconds": 1.1258006999851204,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "stonecairn",
+      8.0
+    ],
+    [
+      "stonecairn",
+      8.0
+    ],
+    [
+      "stonecairn",
+      8.0
+    ],
+    [
+      "stonecairn",
+      8.0
+    ],
+    [
+      "stonecairn",
+      8.0
+    ]
+  ],
+  "input_tokens": 10935,
+  "output_tokens": 225,
+  "seconds": 5.906778600008693
+}

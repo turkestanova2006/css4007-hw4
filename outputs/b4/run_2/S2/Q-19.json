@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: lindenmoor | 0.035",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Lindenmoor paved-road density:\n\n402.3 ÷ 1,015.7 = 0.396 km per km²\n\nRedfen paved-road density:\n\n244.6 ÷ 677.1 = 0.361 km per km²\n\nDifference:\n\n0.396 − 0.361 = 0.035 km per km²\n\nLindenmoor has the denser paved road network by 0.035 km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 106,
+      "seconds": 1.7507812000112608,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Lindenmoor: \\(402.3 \\div 1,015.7 \\approx 0.3960\\) km of road per square kilometre.\n\nRedfen: \\(244.6 \\div 677.1 \\approx 0.3613\\) km of road per square kilometre.\n\nDifference: \\(0.3960 - 0.3613 = 0.0347\\), which rounds to **0.035** km per square kilometre.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 110,
+      "seconds": 1.7845331999706104,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Lindenmoor: \\(402.3 \\div 1,015.7 = 0.3960\\) km/km².\n\nRedfen: \\(244.6 \\div 677.1 = 0.3613\\) km/km².\n\nDifference: \\(0.3960 - 0.3613 = 0.0347\\) km/km², which rounds to 0.035.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 98,
+      "seconds": 1.733003000030294,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Use 2025 figures and the Brightwater correction is irrelevant.\n2. Lindenmoor: \\(402.3 \\div 1,015.7 = 0.3961\\) km/km².\n3. Redfen: \\(244.6 \\div 677.1 = 0.3614\\) km/km².\n4. Difference: \\(0.3961 - 0.3614 = 0.0347\\) km/km².\n5. Lindenmoor therefore has the denser paved road network.\n\nANSWER: Lindenmoor | 0.0347",
+      "input_tokens": 2190,
+      "output_tokens": 124,
+      "seconds": 2.01221140002599,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Lindenmoor: \\(402.3 \\div 1,015.7 \\approx 0.3960\\) km/km².\n\nRedfen: \\(244.6 \\div 677.1 \\approx 0.3613\\) km/km².\n\nDifference: \\(0.3960 - 0.3613 = 0.0347\\) km/km², which rounds to 0.035.\n\nANSWER: Lindenmoor | 0.035",
+      "input_tokens": 2190,
+      "output_tokens": 100,
+      "seconds": 1.6680170000181533,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ],
+    [
+      "lindenmoor",
+      0.035
+    ]
+  ],
+  "input_tokens": 10950,
+  "output_tokens": 538,
+  "seconds": 8.949186100042425
+}

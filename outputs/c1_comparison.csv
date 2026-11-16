@@ -1,0 +1,6 @@
+question,normal_correct,vague_correct,normal_calls,vague_calls,normal_answer,vague_answer
+Q-01,True,False,7,6,ANSWER: Ossbridge | 4.6,UNANSWERED
+Q-03,True,False,5,4,ANSWER: Lindenmoor | 5.3,UNANSWERED
+Q-08,False,False,5,4,ANSWER: Brightwater | 72456.2,UNANSWERED
+Q-09,True,False,7,6,ANSWER: Millbrook | 0.6,UNANSWERED
+Q-18,True,False,3,3,ANSWER: yes | 40013.4,UNANSWERED

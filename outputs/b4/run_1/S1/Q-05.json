@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Stonecairn | 21,707.94",
+  "input_tokens": 2176,
+  "output_tokens": 16,
+  "seconds": 1.1264654000406154,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

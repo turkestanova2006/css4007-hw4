@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Redfen | 0.05",
+  "input_tokens": 2174,
+  "output_tokens": 12,
+  "seconds": 1.1958629000000656,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Tarnvale | 0.62",
+  "input_tokens": 2180,
+  "output_tokens": 12,
+  "seconds": 1.4294347999966703,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

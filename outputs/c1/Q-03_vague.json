@@ -1,0 +1,124 @@
+{
+  "question_id": "Q-03",
+  "question": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?",
+  "answer": "UNANSWERED",
+  "status": "unanswered",
+  "tool_calls": [
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"2025 household water use per resident per day in litres\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water use per resident per day in litres"
+      }
+    },
+    {
+      "round": 1,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"2025 household water use per resident per day in litres\"}",
+      "result": {
+        "error": "Unknown field: 2025 household water use per resident per day in litres"
+      }
+    },
+    {
+      "round": 2,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"household water use\"}",
+      "result": {
+        "error": "Unknown field: household water use"
+      }
+    },
+    {
+      "round": 2,
+      "name": "lookup",
+      "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"household water use\"}",
+      "result": {
+        "error": "Unknown field: household water use"
+      }
+    }
+  ],
+  "input_tokens": 1168,
+  "output_tokens": 146,
+  "rounds": 3,
+  "seconds": 4.492,
+  "tool_call_count": 4,
+  "conversation": [
+    {
+      "role": "system",
+      "content": "\nAnswer Nine Rivers questions using lookup and calculate.\nNever invent facts. Apply corrections and check units.\nUse calculate for arithmetic.\nReturn exactly: ANSWER: <name or yes/no> | <number>. Round the final number to one decimal place for Q-09. Do not add units or extra text after the number. Example: ANSWER: Millbrook | 0.6\nIf information is missing, return UNANSWERED.\n"
+    },
+    {
+      "role": "user",
+      "content": "In 2025, which district's households used more water per resident per day, Lindenmoor or Kelmarsh, and by how many litres per resident per day?"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_jNAamPvWXcPMruJQbf0oALK7",
+          "function": {
+            "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"2025 household water use per resident per day in litres\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_ByARdZ7SIoPaSq9ysbFheHXH",
+          "function": {
+            "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"2025 household water use per resident per day in litres\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_jNAamPvWXcPMruJQbf0oALK7",
+      "content": "{\"error\": \"Unknown field: 2025 household water use per resident per day in litres\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_ByARdZ7SIoPaSq9ysbFheHXH",
+      "content": "{\"error\": \"Unknown field: 2025 household water use per resident per day in litres\"}"
+    },
+    {
+      "role": "assistant",
+      "annotations": [],
+      "tool_calls": [
+        {
+          "id": "call_vLKrT3l7g7oavhrC8b4vfYQX",
+          "function": {
+            "arguments": "{\"district\": \"Lindenmoor\", \"field\": \"household water use\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        },
+        {
+          "id": "call_fiSYjqsjOLStI4EhowI1Fki2",
+          "function": {
+            "arguments": "{\"district\": \"Kelmarsh\", \"field\": \"household water use\"}",
+            "name": "lookup"
+          },
+          "type": "function"
+        }
+      ]
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_vLKrT3l7g7oavhrC8b4vfYQX",
+      "content": "{\"error\": \"Unknown field: household water use\"}"
+    },
+    {
+      "role": "tool",
+      "tool_call_id": "call_fiSYjqsjOLStI4EhowI1Fki2",
+      "content": "{\"error\": \"Unknown field: household water use\"}"
+    },
+    {
+      "content": "UNANSWERED",
+      "role": "assistant",
+      "annotations": []
+    }
+  ]
+}

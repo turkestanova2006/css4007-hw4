@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: redfen | 17.7",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Kelmarsh pupils per school: 3,268 ÷ 11 = 296.  \nRedfen pupils per school: 3,147 ÷ 10 = 314.7.  \n\nRedfen has more pupils per school by 314.7 − 296 = 18.7.\n\nANSWER: Redfen | 18.7",
+      "input_tokens": 2191,
+      "output_tokens": 74,
+      "seconds": 1.9078937000012957,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh: 3,268 ÷ 11 = 296.999… pupils per school.\n\nRedfen: 3,147 ÷ 10 = 314.7 pupils per school.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 74,
+      "seconds": 1.3684178999974392,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh pupils per school: 3,268 ÷ 11 = 296.999... ≈ 297.0.\n\nRedfen pupils per school: 3,147 ÷ 10 = 314.7.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nRedfen has more pupils per school by 17.7.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 93,
+      "seconds": 1.9416022999794222,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh: 3,268 ÷ 11 = 296. \n\nRedfen: 3,147 ÷ 10 = 314.7.\n\nDifference: 314.7 − 296 = 18.7 pupils per school.\n\nANSWER: Redfen | 18.7",
+      "input_tokens": 2191,
+      "output_tokens": 64,
+      "seconds": 1.5609388999873772,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh pupils per school: 3,268 ÷ 11 = 296.999... ≈ 297.0.\n\nRedfen pupils per school: 3,147 ÷ 10 = 314.7.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 80,
+      "seconds": 1.6254400000325404,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "redfen",
+      18.7
+    ],
+    [
+      "redfen",
+      17.7
+    ],
+    [
+      "redfen",
+      17.7
+    ],
+    [
+      "redfen",
+      18.7
+    ],
+    [
+      "redfen",
+      17.7
+    ]
+  ],
+  "input_tokens": 10955,
+  "output_tokens": 385,
+  "seconds": 8.404505499987863
+}

@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: redfen | 56.1",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Step 1: Calculate pupils per school:\n\n- Redfen: 3,147 ÷ 10 = 314.7\n- Ashgrove: 8,837 ÷ 24 = 368.2083…\n- Millbrook: 5,562 ÷ 15 = 370.8\n\nStep 2: The fewest pupils per school is Redfen, at 314.7.\n\nStep 3: Difference between the highest and lowest:\n\n370.8 − 314.7 = 56.1\n\nANSWER: Redfen | 56.1",
+      "input_tokens": 2205,
+      "output_tokens": 122,
+      "seconds": 1.9665854999911971,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "1. Calculate pupils per school:\n   - Redfen: 3,147 ÷ 10 = 314.7\n   - Ashgrove: 8,837 ÷ 24 = 368.2083…\n   - Millbrook: 5,562 ÷ 15 = 370.8\n\n2. Redfen has the fewest pupils per school.\n\n3. Difference between the highest and lowest:\n   370.8 − 314.7 = 56.1\n\nANSWER: Redfen | 56.1",
+      "input_tokens": 2205,
+      "output_tokens": 115,
+      "seconds": 1.772495599987451,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n\nAshgrove: 8,837 ÷ 24 = 368.2 pupils per school.\n\nMillbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n\nRedfen has the fewest pupils per school. The difference between the highest and lowest is 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1",
+      "input_tokens": 2205,
+      "output_tokens": 109,
+      "seconds": 1.3720427999505773,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Redfen: 3,147 ÷ 10 = 314.7 pupils per school.  \nAshgrove: 8,837 ÷ 24 = 368.2 pupils per school.  \nMillbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n\nRedfen has the fewest pupils per school. The difference between the highest and lowest is 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1",
+      "input_tokens": 2205,
+      "output_tokens": 111,
+      "seconds": 1.8364498000009917,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Redfen: 3,147 ÷ 10 = 314.7 pupils per school.\n\nAshgrove: 8,837 ÷ 24 = 368.2 pupils per school.\n\nMillbrook: 5,562 ÷ 15 = 370.8 pupils per school.\n\nRedfen has the fewest pupils per school. The difference between the highest and lowest is 370.8 − 314.7 = 56.1 pupils per school.\n\nANSWER: Redfen | 56.1",
+      "input_tokens": 2205,
+      "output_tokens": 109,
+      "seconds": 1.6033618999645114,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "redfen",
+      56.1
+    ],
+    [
+      "redfen",
+      56.1
+    ],
+    [
+      "redfen",
+      56.1
+    ],
+    [
+      "redfen",
+      56.1
+    ],
+    [
+      "redfen",
+      56.1
+    ]
+  ],
+  "input_tokens": 11025,
+  "output_tokens": 566,
+  "seconds": 8.55121569999028
+}

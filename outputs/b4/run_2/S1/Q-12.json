@@ -1,0 +1,9 @@
+{
+  "answer": "ANSWER: Harrowfield | 228.1",
+  "input_tokens": 2177,
+  "output_tokens": 13,
+  "seconds": 1.2767916999873705,
+  "temperature_used": null,
+  "status": "answered",
+  "strategy": "S1"
+}

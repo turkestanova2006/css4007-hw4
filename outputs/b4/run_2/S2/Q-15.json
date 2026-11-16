@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: redfen | 17.7",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Kelmarsh pupils per school: 3,268 ÷ 11 = 296.999... ≈ 297.0.\n\nRedfen pupils per school: 3,147 ÷ 10 = 314.7.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nRedfen has more pupils per school by 17.7.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 93,
+      "seconds": 1.8240283000050113,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh: 3,268 ÷ 11 = 296.999... pupils per school.\n\nRedfen: 3,147 ÷ 10 = 314.7 pupils per school.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 74,
+      "seconds": 1.3595580999972299,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh: 3,268 pupils ÷ 11 schools = 296. (rounded to the nearest whole pupil per school)\n\nRedfen: 3,147 pupils ÷ 10 schools = 314.7 pupils per school.\n\nDifference: 314.7 − 296. (rounded) = 18.7, or 19 pupils per school.\n\nANSWER: Redfen | 19",
+      "input_tokens": 2191,
+      "output_tokens": 86,
+      "seconds": 1.6810943000018597,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh: 3,268 pupils ÷ 11 schools = 296.999... pupils per school.\n\nRedfen: 3,147 pupils ÷ 10 schools = 314.7 pupils per school.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 78,
+      "seconds": 1.59395539999241,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Kelmarsh pupils per school: 3,268 ÷ 11 = 296.999... ≈ 297.0.\n\nRedfen pupils per school: 3,147 ÷ 10 = 314.7.\n\nDifference: 314.7 − 297.0 = 17.7 pupils per school.\n\nRedfen has more pupils per school by 17.7.\n\nANSWER: Redfen | 17.7",
+      "input_tokens": 2191,
+      "output_tokens": 93,
+      "seconds": 1.9333343000034802,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "redfen",
+      17.7
+    ],
+    [
+      "redfen",
+      17.7
+    ],
+    [
+      "redfen",
+      19.0
+    ],
+    [
+      "redfen",
+      17.7
+    ],
+    [
+      "redfen",
+      17.7
+    ]
+  ],
+  "input_tokens": 10955,
+  "output_tokens": 424,
+  "seconds": 8.392236699990463
+}

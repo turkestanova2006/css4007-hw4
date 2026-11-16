@@ -1,0 +1,67 @@
+{
+  "strategy": "S2",
+  "answer": "ANSWER: coldharbour | 14217.0",
+  "status": "answered",
+  "samples": [
+    {
+      "answer": "Stonecairn’s 2025 budget per resident:\n\n2,884.6 million tenge ÷ 14,926 residents  \n= 2,884,600,000 ÷ 14,926  \n≈ 193,291.16 tenge per resident\n\nColdharbour’s 2025 budget per resident:\n\n2,366.9 million tenge ÷ 11,407 residents  \n= 2,366,900,000 ÷ 11,407  \n≈ 207,507.67 tenge per resident\n\nDifference:\n\n207,507.67 − 193,291.16 = 14,216.51 tenge per resident\n\nColdharbour had the larger budget per resident by approximately 14,217 tenge per resident.\n\nANSWER: Coldharbour | 14217",
+      "input_tokens": 2192,
+      "output_tokens": 169,
+      "seconds": 2.0672706000041217,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn: \\(2,884.6\\) million tenge ÷ \\(14,926\\) residents \\(= 193,159.02\\) tenge per resident.\n\nColdharbour: \\(2,366.9\\) million tenge ÷ \\(11,407\\) residents \\(= 207,514.68\\) tenge per resident.\n\nDifference: \\(207,514.68 - 193,159.02 = 14,355.66\\) tenge per resident.\n\nANSWER: Coldharbour | 14355.66",
+      "input_tokens": 2192,
+      "output_tokens": 122,
+      "seconds": 2.008765399979893,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn: \\(2,884.6\\) million tenge ÷ \\(14,926\\) residents \\(= 193,164.68\\) tenge per resident.\n\nColdharbour: \\(2,366.9\\) million tenge ÷ \\(11,407\\) residents \\(= 207,513.81\\) tenge per resident.\n\nDifference: \\(207,513.81 - 193,164.68 = 14,349.13\\) tenge per resident.\n\nANSWER: Coldharbour | 14349.13",
+      "input_tokens": 2192,
+      "output_tokens": 122,
+      "seconds": 1.9206435999949463,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn: \\(2,884.6\\) million tenge ÷ \\(14,926\\) residents = \\(193,159.74\\) tenge per resident.\n\nColdharbour: \\(2,366.9\\) million tenge ÷ \\(11,407\\) residents = \\(207,513.81\\) tenge per resident.\n\nDifference: \\(207,513.81 - 193,159.74 = 14,354.07\\) tenge per resident.\n\nANSWER: Coldharbour | 14354.07",
+      "input_tokens": 2192,
+      "output_tokens": 120,
+      "seconds": 1.976793700014241,
+      "temperature_used": 0.7
+    },
+    {
+      "answer": "Stonecairn: \\(2,884.6\\) million tenge ÷ \\(14,926\\) residents = \\(193,166.82\\) tenge per resident.\n\nColdharbour: \\(2,366.9\\) million tenge ÷ \\(11,407\\) residents = \\(207,514.68\\) tenge per resident.\n\nDifference: \\(207,514.68 - 193,166.82 = 14,347.86\\) tenge per resident.\n\nANSWER: Coldharbour | 14347.86",
+      "input_tokens": 2192,
+      "output_tokens": 120,
+      "seconds": 1.6548652999917977,
+      "temperature_used": 0.7
+    }
+  ],
+  "votes": [
+    [
+      "coldharbour",
+      14217.0
+    ],
+    [
+      "coldharbour",
+      14356.0
+    ],
+    [
+      "coldharbour",
+      14349.0
+    ],
+    [
+      "coldharbour",
+      14354.0
+    ],
+    [
+      "coldharbour",
+      14348.0
+    ]
+  ],
+  "input_tokens": 10960,
+  "output_tokens": 653,
+  "seconds": 9.628864799975418
+}
